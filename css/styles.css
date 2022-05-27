@@ -1,0 +1,153 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+.head {
+	display: flex;
+	justify-content: space-between;
+	height: 156px;
+	padding: 0 37px 0 90px;
+	align-items: center;
+}
+.list-nav {
+	display: flex;
+}
+.item-nav {
+	list-style: none;
+}
+.item-nav + .item-nav {
+	margin-left: 104px;
+}
+.nav-link {
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 175%;
+	/* identical to box height, or 175% */
+	text-align: center;
+	letter-spacing: 0.2px;
+	color: #252B42;
+}
+.nav-link:hover {
+	color: #FA4A0C;
+}
+.active {
+	color: #FA4A0C;
+}
+/* end header */
+/* slogan */
+.slogan {
+	background-image: url("../img/top_bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 674px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+.food {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 133%;
+	letter-spacing: 0.1px;
+	color: #F7F7F7;
+}
+.slogan-title {
+	max-width: 1000px;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 167%;
+	text-align: center;
+	letter-spacing: 0.2px;
+	color: #fff;
+}
+.slogan-subtitle {
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 158%;
+	text-align: center;
+	letter-spacing: 0.2px;
+	color: #F7F7F7;
+}
+.buttons {
+	display: flex;
+	list-style: none;
+}
+ button {
+	padding: 16px 60px;
+	border: none;
+	border-radius: 30px;
+	color: #fff;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 150%;
+	letter-spacing: 0.1px;
+	cursor: pointer;
+}
+.btn-play {
+	background: #FA4A0C;
+	margin-right: 30px;
+}
+.btn-app {
+	border: 1px solid #F7F7F7;
+	background: transparent;
+}
+/* end slogan */
+/* content */
+.wrap {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+.content-title {
+	text-align: center;
+	font-weight: 600;
+	font-size: 44px;
+	line-height: 82%;
+	letter-spacing: 0.1px;
+	color: #000000;
+	opacity: 0.8;
+	margin: 100px 0;
+}
+.block {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 100px;
+}
+.block > div {
+	margin: 0 130px;
+}
+.article-subtitle {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 150%;
+	letter-spacing: 0.1px;
+	color: #FA4A0C;
+}
+.article-title {
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 142%;
+	letter-spacing: 0.2px;
+	color: #252B42;
+}
+.article-content {
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 158%;
+	letter-spacing: 0.2px;
+	color: #737373;
+}
+/* end content */
+/* footer */
+.footer {
+	padding: 50px 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
